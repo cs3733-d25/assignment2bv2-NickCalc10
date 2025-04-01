@@ -1,15 +1,15 @@
 import React from 'react';
 
 interface TitleProps {
-    className: string;
+    cName: string;
     teamNum: number;
     hobbies: string;
 }
 
-const Title: React.FC<TitleProps> = ({ className, teamNum, hobbies }) => {
+const Title: React.FC<TitleProps> = ({ cName, teamNum, hobbies }) => {
     return (
         <div>
-            <h1>{className} Team {teamNum}: {hobbies}</h1>
+            <h1>{cName} Team {teamNum}: {hobbies}</h1>
         </div>
     );
 };

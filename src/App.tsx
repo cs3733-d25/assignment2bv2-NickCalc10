@@ -1,34 +1,32 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Title from "./Title.tsx";
+import Intro from "./Intro.tsx";
+import Hobby1 from "./Hobby1.tsx";
+import List1 from "./List1.tsx";
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
+    return (
       <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+          <Title
+              cName="CS3733-D25"
+              teamNum={48}
+              hobbies = "Weighlifting and Fishing">
+          </Title>
+          <Intro
+              name1={"Nicholas Calcasola"}
+              name2={"Logan Winters"}>
+          </Intro>
+          <Hobby1
+              hobbyName={"Weightlifting"}
+              description={"Nicholas Calcasola's hobby is weighlifting, I began lifting weights when I was " +
+                  "a senior in highschool and have continued to this day"}
+              imageUrl={"src/assets/Weightlifting Pic.webp"}>
+          </Hobby1>
+          <List1
+              title={"Beginner Workout Splits/Styles Ranked From Easiest for Beginners to Hardest"}
+              items={["Full Body", "Push Pull Legs", "Upper Lower Split", "Body Part Split", "CrossFit"]}>
+          </List1>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
   )
 }
 
