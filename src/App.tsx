@@ -1,7 +1,7 @@
 import './App.css'
-import Title from "./Title.tsx";
+import Title from "./title.tsx";
 import Intro from "./Intro.tsx";
-import Hobby1 from "./Hobby1.tsx";
+import Hobby1 from "./hobby1.tsx";
 
 function App() {
     return (
