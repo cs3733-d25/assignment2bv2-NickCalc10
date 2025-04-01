@@ -2,7 +2,6 @@ import './App.css'
 import Title from "./Title.tsx";
 import Intro from "./Intro.tsx";
 import Hobby1 from "./Hobby1.tsx";
-import List1 from "./List1.tsx";
 
 function App() {
     return (
@@ -22,10 +21,7 @@ function App() {
                   "a senior in highschool and have continued to this day"}
               imageUrl={"src/assets/Weightlifting Pic.webp"}>
           </Hobby1>
-          <List1
-              title={"Beginner Workout Splits/Styles Ranked From Easiest for Beginners to Hardest"}
-              items={["Full Body", "Push Pull Legs", "Upper Lower Split", "Body Part Split", "CrossFit"]}>
-          </List1>
+
       </div>
   )
 }
