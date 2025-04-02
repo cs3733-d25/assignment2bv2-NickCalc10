@@ -4,7 +4,31 @@
   padding: 2rem;
   text-align: center;
 }
+.headerCaption{
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+}
+.table-format{
+  justify-content: center;
+  width: 100%;
+}
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
 
+.form-group label {
+  width: 200px;
+  text-align: left;
+  margin-right: 10px;
+}
+
+.form-group input {
+  width: 200px;
+  padding: 1px;
+}
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -16,6 +40,9 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+table, tr, td, th{
+  border: 1px solid black;
 }
 
 @keyframes logo-spin {
