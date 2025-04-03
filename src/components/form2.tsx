@@ -7,27 +7,27 @@ const Form2: React.FC = () => {
             <br />
             <h2>Personal Best Recorder</h2>
             <form>
-                <div className="form-row">
+                <div className="form-group">
                     <label htmlFor="fullname">Enter Your Full Name</label>
                     <input type="text" id="fullname" />
                 </div>
 
-                <div className="form-row">
+                <div className="form-group">
                     <label htmlFor="size">Enter the weight in lbs</label>
                     <input type="text" id="size" />
                 </div>
 
-                <div className="form-row">
+                <div className="form-group">
                     <label htmlFor="lure">What lure?</label>
                     <input type="text" id="lure" />
                 </div>
 
-                <div className="form-row">
+                <div className="form-group">
                     <label htmlFor="where">What body of water?</label>
                     <input type="text" id="where" />
                 </div>
 
-                <div className="form-row">
+                <div className="form-group">
                     <label htmlFor="time">What time?</label>
                     <input type="text" id="time" />
                 </div>
@@ -41,7 +41,7 @@ const Form2: React.FC = () => {
                 </div>
 
                 <br />
-                <div className="form-row">
+                <div className="form-group">
                     <label htmlFor="weather" className="group-label">What was the Weather?</label>
                     <br />
                     <select id="weather">

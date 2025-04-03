@@ -1,4 +1,5 @@
 import './App.css'
+import './list.css'
 import Title from "./title.tsx";
 import Intro from "./Intro.tsx";
 import Hobby1 from "./hobby1.tsx";
@@ -9,7 +10,7 @@ function App() {
       <div>
           <Title
               cName="CS3733-D25"
-              teamNum={48}
+              teamNum={31}
               hobbies = "Weighlifting and Fishing">
           </Title>
           <Intro

@@ -1,7 +1,7 @@
 
 const form1 = ()=> {
     return(
-        <div>
+        <div className = "form-wrapper">
             <hr />
             <h2>Optimize Your Workout Schedule Form</h2>
             <form>
