@@ -1,7 +1,7 @@
 import React from "react"
-import List2 from './list2';
-import Table2 from "./table2.tsx";
-import Form2 from "./form2.tsx";
+import List2 from './components/list2.tsx';
+import Table2 from "./components/table2.tsx";
+import Form2 from "./components/form2.tsx";
 
 
 interface hobbyProps {

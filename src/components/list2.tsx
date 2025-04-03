@@ -9,7 +9,7 @@ const list: React.FC<listProps> = ({ title, values }) => {
     return (
         <div>
             <h2>{title}</h2>
-            <ul>
+            <ul className={`list-format`}>
                 {values.map((value, index) => (
                     <li key={index}> {value}</li>
                 ))}
