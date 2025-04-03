@@ -1,5 +1,8 @@
 import React from "react"
 import List2 from './list2';
+import Table2 from "./table2.tsx";
+import Form2 from "./form2.tsx";
+
 
 interface hobbyProps {
     hobbyName: string
@@ -16,6 +19,12 @@ const hobby2: React.FC<hobbyProps> = ({hobbyName, description, imageUrl}) => {
             <List2 title={'There are many variables that go into fishing such as:\n'}
                 values={["Lure", "Weather", "Temperature", "Time of Year", "Location", "Water Clarity", "Time of Day", "Rod + Reel"]}>
             </List2>
+            <Table2>
+            </Table2>
+            <Form2>
+
+            </Form2>
+
         </div>
     )
 }

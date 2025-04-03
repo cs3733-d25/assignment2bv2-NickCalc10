@@ -2,6 +2,7 @@
 const form1 = ()=> {
     return(
         <div>
+            <hr />
             <h2>Optimize Your Workout Schedule Form</h2>
             <form>
                 <div className="form-group">
